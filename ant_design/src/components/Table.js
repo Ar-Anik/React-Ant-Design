@@ -18,7 +18,7 @@ function TableClass() {
     },
     {
       name: "ccccc",
-      age: 20,
+      age: 30,
       address: "cccccd",
       key: "3",
     },
@@ -29,16 +29,27 @@ function TableClass() {
       title: "Name",
       dataIndex: "name",
       key: "key",
+      render: (name) => {
+        return <a>{name}</a>;
+      },
     },
     {
       title: "Age",
       dataIndex: "age",
       key: "key",
+      sorter: (a, b) => a.age - b.age,
     },
     {
       title: "Address",
       dataIndex: "address",
       key: "key",
+    },
+    {
+      title: "Graduated",
+      key: "key",
+      render: (attribute) => {
+        return <p>{attribute.age > 20 ? "True" : "False"}</p>;
+      },
     },
   ];
 
