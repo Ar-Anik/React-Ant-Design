@@ -20,6 +20,7 @@ function ButtonClass() {
     <div className="App">
       <div className="header">
         <Button
+          className="btn"
           type="primary"
           block
           loading={loading}
@@ -28,12 +29,14 @@ function ButtonClass() {
         >
           Primary-Button
         </Button>
-        <Button type="dashed">Dashed-Button</Button>
-        <Button type="link" href="https://www.google.com">
+        <Button className="btn" type="dashed">
+          Dashed-Button
+        </Button>
+        <Button className="btn" type="link" href="https://www.google.com">
           Link-Button
         </Button>
 
-        <Button type="text" className="myButton" onClick={handleChange}>
+        <Button type="text" className={`myButton btn`} onClick={handleChange}>
           Text-Button
         </Button>
       </div>

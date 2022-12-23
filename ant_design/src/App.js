@@ -1,6 +1,7 @@
-import Icon from "./components/Antd_Icons";
+import SearchTable from "./components/Search_in_Table";
+
 function App() {
-  return <Icon />;
+  return <SearchTable />;
 }
 
 export default App;
