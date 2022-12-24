@@ -1,7 +1,6 @@
-import SearchTable from "./components/Search_in_Table";
-
+import EditableTable from "./components/Editable_Table";
 function App() {
-  return <SearchTable />;
+  return <EditableTable />;
 }
 
 export default App;
