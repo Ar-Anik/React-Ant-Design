@@ -1,6 +1,7 @@
-import EditableTable from "./components/Editable_Table";
+import MultiForm from "./components/Multi_Step_Form";
+
 function App() {
-  return <EditableTable />;
+  return <MultiForm />;
 }
 
 export default App;
