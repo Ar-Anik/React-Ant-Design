@@ -1,7 +1,7 @@
-import MultiForm from "./components/Multi_Step_Form";
+import DynamicTheme from "./components/DynamicTheme";
 
 function App() {
-  return <MultiForm />;
+  return <DynamicTheme />;
 }
 
 export default App;
