@@ -1,7 +1,7 @@
-import DynamicTheme from "./components/DynamicTheme";
+import AvatarClass from "./components/Avatar";
 
 function App() {
-  return <DynamicTheme />;
+  return <AvatarClass />;
 }
 
 export default App;
